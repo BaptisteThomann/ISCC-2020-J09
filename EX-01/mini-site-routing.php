@@ -20,7 +20,7 @@ echo '<a href="http://localhost:8888/ISCC-2020/ISCC-2020-J09/EX-01/mini-site-rou
 <h1>
 <?php
 if($_GET['page']== 1){
-    echo"accueil !";
+    echo"Accueil !";
     include ('Accueil.php');
 }
 elseif($_GET['page']== 2){
